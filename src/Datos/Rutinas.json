@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "nombre": "Fuerza",
+        "descripcion": "Esta rutina está diseñada para que desarrolles fuerza real y sólida mediante un enfoque progresivo, seguro y eficiente.\n\nCada sesión combina movimientos fundamentales —como sentadillas, press, peso muerto y empujes— con ejercicios complementarios que equilibran tu estructura y mejoran tu rendimiento general.\n\nA través de una planificación clara y adaptable, vas a aumentar tu fuerza máxima, mejorar tu técnica y optimizar la masa muscular sin entrenar de más. La rutina se ajusta tanto a principiantes como a intermedios, con cargas y volúmenes que progresan semana a semana para garantizar resultados constantes. Ideal si buscás un entrenamiento completo, efectivo y pensado para generar cambios reales en tu físico y en tu rendimiento.",
+        "imagen": "/imgs/img_rutina1.jpg",
+        "precio": 10000
+    },
+    {
+        "id": 2,
+        "nombre": "Hipertrofia",
+        "descripcion": "Esta es la rutina 2",
+        "imagen": "/imgs/img_rutina2.jpg",
+        "precio": 2000
+    }
+]

@@ -1,0 +1,9 @@
+.inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inicio img {
+    background-color: red;
+}

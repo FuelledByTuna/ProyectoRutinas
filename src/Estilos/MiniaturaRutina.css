@@ -1,0 +1,53 @@
+
+.contenedor-mr{ 
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    color: white;
+    background-color: #111111;
+    cursor: pointer;
+    align-items: center;
+
+    overflow: hidden;
+    max-width: 600px;
+    box-shadow: 1px 0px 5px black;
+}
+
+.img-mr {
+    object-fit: contain;
+    height: 250px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    mask-image: linear-gradient(to bottom, #111111 40%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, #111111 40%, transparent 100%);
+}
+
+.nombre-mr {
+    font-weight: 400;
+    font-size: 20px;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.precio-mr {
+    font-weight: 350;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.788);
+}
+
+.boton-mr {
+    cursor: pointer;
+    margin: 10px 0;
+    font-size: 17px;
+    background-color: #ca623c;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    color: black;
+}
+
+.contenedor-mr:hover{
+    background-color: #000000d8;
+    transform: scale(1.03);            
+    transition: transform 0.5s ease; 
+}

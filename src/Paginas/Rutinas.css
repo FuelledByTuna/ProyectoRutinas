@@ -1,0 +1,76 @@
+.rutinas {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contenedor-busqueda { 
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.contenedor-busqueda h5 {
+    color: white;
+    font-weight: 100;
+}
+
+.input-wrapper{
+    position: relative;
+    display: inline-block;
+}
+
+.busqueda-rutinas {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    height: 50px;
+    width: 450px;
+    border-radius: 5px;
+    background-color: #252525;
+    border: 1px solid rgb(255, 255, 255);
+    padding-left: 15px;
+    padding-right: 40px;
+    font-size: 15px;
+    outline: none;
+    color: white;
+    font-weight: 50;
+    transition: border 0.25s;
+}
+
+.input-wrapper .icon {
+    position: absolute;
+    right: 10px;
+    top: 43%;
+
+    font-size: 25px;
+    color: white;
+}
+
+.contenedor-rutinas {
+    width: 100%;
+    max-width: 2000px;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(390px, max-content));
+    margin: 20px;
+    justify-content: center;
+    padding: 0px 20px;
+}
+
+.busqueda-rutinas:hover, .busqueda-rutinas:focus{
+    border: 1px solid #d9582b;
+}
+
+
+@media (max-width: 500px) {
+    .busqueda-rutinas {
+        width: 340px;
+    }
+}
+
+@media (max-width: 430px) {
+    .contenedor-rutinas {
+        grid-template-columns: repeat(auto-fit, minmax(345px, max-content));
+    }
+}
